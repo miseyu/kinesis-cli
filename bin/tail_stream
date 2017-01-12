@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative '../lib/tools'
+require_relative '../lib/commands/tail_cli'
+TailCLI.start(ARGV)
